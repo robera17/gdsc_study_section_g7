@@ -1,1 +1,1 @@
-# -gdsc_study_section_g7-
+gdsc_study_section_g7-
