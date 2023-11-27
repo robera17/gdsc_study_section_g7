@@ -1,0 +1,14 @@
+void main() {
+  final numbers = [1, 8, 3, 3, 4, 45, 5, 69, 10, 39, 91, 10];
+
+  int max = numbers.reduce((curr, next) => curr > next ? curr : next);
+  int min = numbers.reduce((curr, next) => curr < next ? curr : next);
+  int sum = numbers.reduce((value, element) => value + element);
+  double average = sum / numbers.length;
+
+  print('List of numbers: $numbers');
+  print('Maximum number: $max');
+  print('Minimum number: $min');
+  print('Sum of all numbers: $sum');
+  print('Average of all numbers: ${average.toStringAsFixed(2)}');
+}
