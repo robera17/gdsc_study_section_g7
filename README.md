@@ -1,1 +1,3 @@
-gdsc_study_section_g7-
+void main() {
+  print("Hello World");
+}
